@@ -132,7 +132,9 @@ while menu_selection:
 
 
     elif answer == "3":
-        menu_selection = False
+        menu_selection = True
+        print("\n**\nhttps://github.com/DavidAnsc/md_to_notion_md_converter\n**\n")
+        # get the link here:
 
 
 
