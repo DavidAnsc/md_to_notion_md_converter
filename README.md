@@ -5,10 +5,10 @@ which is the document that contains image hyperlinks
 or other formats that only work for Obsidian so need format conversion, 
 and a folder with the images that were used in the document.
 
-*
+^^
 (You don't actually need the folder with images, 
 you'll only need it before importing to Notion or other softwares.)
-*
+^^
 
 ## CONVERSION
 
