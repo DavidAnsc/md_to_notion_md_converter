@@ -1,3 +1,8 @@
+This is a program that can turn obsidian .md files to notion-readable .md files.
+You'll need:
+- a folder contains all images that you used in the .md file
+- the obsidian .md file
+
 ## PREPARATION
 
 In this program, all you have to prepare is a .md text file 
