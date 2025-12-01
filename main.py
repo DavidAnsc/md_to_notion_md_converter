@@ -17,7 +17,7 @@ patternIndentList = r"\t*-.*"
 # This is my first ever file handling project!
 
 replacement: list[str] = []
-exportFilePath = ""
+exportFilePath = "outputs/outputMd.md"
 content = ""
 
 bext.fg("purple")
@@ -133,8 +133,6 @@ while menu_selection:
                     print("**\n** error while trying to read the file from the given file path. **\n**")
                     break
 
-                exportFilePath = "outputs/outputMd.md"
-
                 newResult2: list[str] = []
 
                 try:
@@ -163,10 +161,6 @@ while menu_selection:
                 #         f"\n{result3[index]}"
                 except:
                     print("error while trying to write the file!")
-                else:
-                    print("sorry, you entered a wrong file path.")
-                    print("pls try again!")
-                    continue
 
             
 
